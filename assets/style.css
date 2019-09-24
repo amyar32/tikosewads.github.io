@@ -38,3 +38,15 @@ h2 {
 .profile {
     width: 50%;
 }
+
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    width: 10%;
+}
+
+.footer img:hover {
+    filter: drop-shadow(0 0 5px #8785a2);
+}
