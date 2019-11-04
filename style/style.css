@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 20% 10px 20%;
+  color: grey;
+}
+
+a {
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 80%;
+}
+
+#main-header {
+  background-color: grey;
+  color: white;
+  padding: 30px;
+  display: inline-block;
+}
+
+#main-header > h1 {
+  margin: 0px;
+}
+
+#main-header > h4 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 0.80em;
+  font-weight: 700;
+}
+
+#main-header > p {
+  font-size: 80%;
+  margin-bottom: 0px;
+  border-top: 1px solid white;
+  padding-top: 15px;
+}
+
+#main-header > section {
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  word-spacing: 10px;
+}
+
+#main-header > section > a {
+  color: white;
+}
+
+#tugas-section {
+  color: gray;
+}
+
+#tugas-section > h2 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+}
+
+#tugas-section > p {
+  font-size: 80%;
+}
+
+#tugas-secion > div {
+  text-align: center;
+}
+
+#tugas-section > section {
+  text-align: center;
+}
