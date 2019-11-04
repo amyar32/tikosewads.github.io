@@ -2,19 +2,20 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 20px;
-  background-color: #e7eaf6;
+  margin: 10px 20% 10px 20%;
+  color: grey;
 }
 
 a {
   font-style: italic;
-  text-decoration: none;
+  text-decoration: underline;
+  font-size: 80%;
 }
 
 #main-header {
-  background-color: #38598b;
-  color: #e7eaf6;
-  padding: 20px;
+  background-color: grey;
+  color: white;
+  padding: 30px;
   display: inline-block;
 }
 
@@ -25,20 +26,44 @@ a {
 #main-header > h4 {
   margin-top: 0px;
   margin-bottom: 15px;
+  font-size: 0.80em;
+  font-weight: 700;
 }
 
 #main-header > p {
   font-size: 80%;
   margin-bottom: 0px;
+  border-top: 1px solid white;
+  padding-top: 15px;
 }
 
-#bottom-header {
-  background-color: #a2a8d3;
-  padding: 20px;
+#main-header > section {
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  word-spacing: 10px;
+}
+
+#main-header > section > a {
+  color: white;
+}
+
+#tugas-section {
+  color: gray;
+}
+
+#tugas-section > h2 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+}
+
+#tugas-section > p {
+  font-size: 80%;
+}
+
+#tugas-secion > div {
   text-align: center;
 }
 
-#bottom-header > a {
-  font-size: 80%;
-  color: #e7eaf6;
+#tugas-section > section {
+  text-align: center;
 }
