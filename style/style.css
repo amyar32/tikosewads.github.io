@@ -62,3 +62,7 @@ a {
 #tugas-section > section {
   text-align: center;
 }
+
+#tugas-section > section > a {
+  color: gray;
+}
