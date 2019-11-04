@@ -1,2 +1,2 @@
 # tikosewads.github.io
-pure static web from stratch
+static web from stratch
