@@ -39,13 +39,13 @@ p {
   padding-top: 15px;
 }
 
-#main-header > section {
+#main-header > div {
   text-align: center;
   padding: 0px 20px 0px 20px;
   word-spacing: 10px;
 }
 
-#main-header > section > a {
+#main-header > div > a {
   color: white;
 }
 
@@ -53,22 +53,22 @@ p {
   color: gray;
 }
 
-#tugas-section > section {
+#tugas-section > div {
   text-align: center;
 }
 
-#tugas-section > section > a {
+#tugas-section > div > a {
   background-color: gray;
   color: white;
   border: 1px solid gray;
   padding: 3px;
 }
 
-#expertise-section > article {
+#expertise-section > div {
   text-align: center;
 }
 
-#expertise-section > article > span {
+#expertise-section > div > span {
   background-color: gray;
   color: white;
   border: 1px solid gray;
