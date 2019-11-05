@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap'); */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -8,6 +8,10 @@ body {
 
 a {
   text-decoration: underline;
+  font-size: 80%;
+}
+
+p {
   font-size: 80%;
 }
 
@@ -30,7 +34,6 @@ a {
 }
 
 #main-header > p {
-  font-size: 80%;
   margin-bottom: 0px;
   border-top: 1px solid white;
   padding-top: 15px;
@@ -50,19 +53,43 @@ a {
   color: gray;
 }
 
-#tugas-section > h2 {
-  border-bottom: 1px solid grey;
-  padding-bottom: 15px;
-}
-
-#tugas-section > p {
-  font-size: 80%;
-}
-
 #tugas-section > section {
   text-align: center;
 }
 
 #tugas-section > section > a {
-  color: gray;
+  background-color: gray;
+  color: white;
+  border: 1px solid gray;
+  padding: 3px;
+}
+
+#expertise-section > article {
+  text-align: center;
+}
+
+#expertise-section > article > span {
+  background-color: gray;
+  color: white;
+  border: 1px solid gray;
+  padding: 3px;
+  font-size: 80%;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+#experience-section > article > h4 {
+  margin-bottom: 0px;
+}
+
+#experience-section > article > h5 {
+  margin-top: 5px;
+}
+
+
+#main-footer {
+  background-color: gray;
+  color: white;
+  padding: 1px 30px 1px 30px;
+  text-align: center;
 }
