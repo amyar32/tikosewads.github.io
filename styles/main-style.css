@@ -100,6 +100,20 @@ p {
   margin-top: 5px;
 }
 
+#form-section > input {
+  display: block;
+  margin: 5px 0px 5px 0px;
+}
+
+#form-section > textarea {
+  resize: none;
+  display: block;
+  margin: 5px 0px 5px 0px;
+}
+
+#form-section > button {
+  margin-bottom: 5px;
+}
 
 #main-footer {
   background-color: gray;
