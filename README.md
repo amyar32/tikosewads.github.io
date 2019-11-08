@@ -1,6 +1,6 @@
 # tikosewads.github.io
 pure html + css + js static web practice
-- [x] CV Section
-- [x] Form input Section
+- [x] CV section
+- [x] Form input section
 - [ ] Fix stupid crossword puzzle
 - [ ] ..
