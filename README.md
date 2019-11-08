@@ -1,2 +1,2 @@
 # tikosewads.github.io
-static web from stratch
+pure html + css static web practice
