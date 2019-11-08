@@ -76,21 +76,6 @@ p {
 #tugas-section > div > a:hover {
   background-color: white;
   color: gray;
-  border: 1px solid gray;
-  padding: 5px 10px 5px 10px;
-  font-family: 'Bowlby One SC', cursive;
-  font-size: 40px;
-  text-decoration: none;
-}
-
-#tugas-section > div > a:active {
-  background-color: gray;
-  color: white;
-  border: 1px solid gray;
-  padding: 5px 10px 5px 10px;
-  font-family: 'Bowlby One SC', cursive;
-  font-size: 40px;
-  text-decoration: none;
 }
 
 #expertise-section > div {
