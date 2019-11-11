@@ -1,0 +1,42 @@
+#main-header {
+  border-bottom: 2px solid black;
+}
+
+#main-header > h1 {
+  display: inline-block;
+}
+
+.profile-menu {
+  list-style: none;
+  float: right;
+  margin-top: 35px;
+  padding-bottom: 30px;
+}
+
+.sub-menu {
+  list-style: none;
+  padding: 0px;
+  border: 1px solid gray;
+  margin-top: 32px;
+  background: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0,.3);
+  width: 200px;
+  position: absolute;
+  right: 10px;
+  display: none;
+}
+
+.sub-menu.active {
+  display: block;
+}
+
+.sub-menu a{
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sub-menu a:hover {
+  background: #ddd;
+}

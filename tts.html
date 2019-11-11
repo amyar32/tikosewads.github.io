@@ -1,151 +1,36 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Crossword Puzzle</title>
+    <link rel="stylesheet" href="./styles/tts-style.css">
+  </head>
+  <body>
+    <header id="main-header">
+      <h1>Crossword Puzzle</h1>
+      <ul class="profile-menu">
+        <li><a href="#" data-trigger="dropdown">Hello, Your Name!</a>
+          <ul class="sub-menu">
+            <li><a href="#">Your Profile</a></li>
+            <li><a href="#">Setting</a></li>
+            <li><a href="#">Log Out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
 
-<html>
+    <section id="main-section">
+      <section id="editable-section">LOL</section>
+      <textarea id="text" rows="8" cols="80"></textarea>
+      <button type="button" id="append">Append</button>
+      <button type="button" id="prepend">Prepend</button>
+      <button type="button" id="replace">Replace</button>
+    </section>
 
-    <head>
-        <style>
-            .box {
-                width: 50px;
-                height: 50px;
-            }
 
-            .green {
-                border: 2px solid green;
-            }
 
-            .red {
-                border: 2px solid red;
-            }
-        </style>
-    </head>
+    <script src="./scripts/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="./scripts/tts-script.js" charset="utf-8"></script>
 
-    <body>
-        <table>
-            <tr>
-                <td><input type="text" class="box" id="a1"><span style="position: relative;top: -17px;left: -45px;font-size: 10px">1</td>
-                <td><input type="text" class="box" id="a2"></td>
-                <td><input type="text" class="box" id="a3"></td>
-                <td><input type="text" class="box" id="a4"><span style="position: relative;top: -17px;left: -45px;font-size: 10px">2</td>
-                <td><input type="text" class="box" id="a5"></td>
-            </tr>
-            <tr>
-                <td colspan="3"><input type="text" class="box" id="a6"></td>
-                <td><input type="text" class="box" id="a7"></td>
-            </tr>
-            <tr>
-                <td><input type="text" class="box" id="a8"><span style="position: relative;top: -17px;left: -45px;font-size: 10px">2</td>
-                <td><input type="text" class="box" id="a9"></td>
-                <td><input type="text" class="box" id="a10"></td>
-                <td><input type="text" class="box" id="a11"></td>
-                <td><input type="text" class="box" id="a12"></td>
-            </tr>
-            <tr>
-                <td colspan="5"><input type="text" class="box" id="a13"></td>
-            </tr>
-            <tr>
-                <td colspan="5"><input type="text" class="box" id="a14"></td>
-            </tr>
-        </table>
-
-        <button onclick="answer_check()">Check</button>
-        
-        <h3>Mendatar</h3>
-        <h4>
-            <ol>
-                <li>Sahabat Mario</li>
-                <li>Kentut (Bahasa Sunda)</li>
-            </ol>
-        </h4>
-
-        <h3>Menurun</h3>
-        <h4>
-            <ol>
-                <li>Menteri Koordinator Bid. Politik</li>
-                <li>Gujarat Technological University (Singkatan)</li>
-            </ol>
-        </h4>
-        
-        <h3 id="score"></h3>
-
-        <script>
-
-        function answer_check() {
-            var score = 0;
-            var a1 = document.getElementById("a1").value.toLowerCase();
-            var a2 = document.getElementById("a2").value.toLowerCase();
-            var a3 = document.getElementById("a3").value.toLowerCase();
-            var a4 = document.getElementById("a4").value.toLowerCase();
-            var a5 = document.getElementById("a5").value.toLowerCase();
-            var a6 = document.getElementById("a6").value.toLowerCase();
-            var a7 = document.getElementById("a7").value.toLowerCase();
-            var a8 = document.getElementById("a8").value.toLowerCase();
-            var a9 = document.getElementById("a9").value.toLowerCase();
-            var a10 = document.getElementById("a10").value.toLowerCase();
-            var a11 = document.getElementById("a11").value.toLowerCase();
-            var a12 = document.getElementById("a12").value.toLowerCase();
-            var a13 = document.getElementById("a13").value.toLowerCase();
-            var a14 = document.getElementById("a14").value.toLowerCase();
-
-            if(a1 == 'l') {
-                document.getElementById("a1").classList.add("green");
-                score++;
-            }
-            if(a2 == 'u') {
-                document.getElementById("a2").classList.add("green");
-                score++;
-            }
-            if(a3 == 'i') {
-                document.getElementById("a3").classList.add("green");
-                score++;
-            }
-            if(a4 == 'g') {
-                document.getElementById("a4").classList.add("green");
-                score++;
-            }
-            if(a5 == 'i') {
-                document.getElementById("a5").classList.add("green");
-                score++;
-            }
-            if(a6 == 'u') {
-                document.getElementById("a6").classList.add("green");
-                score++;
-            }
-            if(a7 == 't') {
-                document.getElementById("a7").classList.add("green");
-                score++;
-            }
-            if(a8 == 'h') {
-                document.getElementById("a8").classList.add("green");
-                score++;
-            }
-            if(a9 == 'i') {
-                document.getElementById("a9").classList.add("green");
-                score++;
-            }
-            if(a10 == 't') {
-                document.getElementById("a10").classList.add("green");
-                score++;
-            }
-            if(a11 == 'u') {
-                document.getElementById("a11").classList.add("green");
-                score++;
-            }
-            if(a12 == 't') {
-                document.getElementById("a12").classList.add("green");
-                score++;
-            }
-            if(a13 == 'u') {
-                document.getElementById("a13").classList.add("green");
-                score++;
-            }
-            if(a14 == 't') {
-                document.getElementById("a14").classList.add("green");
-                score++;
-            }
-
-            document.getElementById("score").innerHTML = score;
-        }
-        </script>
-    </body>
-
+  </body>
 </html>
